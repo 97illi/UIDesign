@@ -5,11 +5,15 @@
 }
 
 body {
-	background-color: hotpink;
+	background-color: lightpink;
 	color: red;
 	font-family: arial;
 }
-
+@font-face {
+  font-family: "font-name";
+  src: url("assets/fonts/Movement") format("Movement-DirectThin.woff2"),
+       url("tassets/fonts/Movement") format("Movement-DirectThin.woff2");
+}
  /*adjusting fonts
 
 body {
