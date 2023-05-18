@@ -7,13 +7,10 @@
 body {
 	background-color: lightpink;
 	color: red;
-	font-family: arial;
+	font-family: "Movement";
+	src: url("assets/fonts/Movement") format("Movement-DirectThin.woff2");
 }
-@font-face {
-  font-family: "Movement";
-  src: url("assets/fonts/Movement") format("Movement-DirectThin.woff2"),
-       url("tassets/fonts/Movement") format("Movement-DirectThin.woff2");
-}
+
  /*adjusting fonts
 
 body {
