@@ -10,7 +10,7 @@ body {
 	font-family: arial;
 }
 @font-face {
-  font-family: "font-name";
+  font-family: "Movement";
   src: url("assets/fonts/Movement") format("Movement-DirectThin.woff2"),
        url("tassets/fonts/Movement") format("Movement-DirectThin.woff2");
 }
