@@ -1,0 +1,124 @@
+body {
+	background: #cccccc;
+}
+
+#align {
+	display: flex;
+  align-items: center;
+  justify-content: center;	
+  height: 100vh;
+}
+
+#stage {
+	width: 556px;
+	height: 650px;
+	margin: auto;
+	background-color: snow;
+	position: relative;
+}
+
+/*#triangle {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 150px solid lightpink;
+	position: absolute;
+	bottom: 250px;
+	right: 190px;
+}
+*/
+#circle {
+  width: 50px;
+  height: 50px;
+  background: #b6d7a8;
+  border-radius: 50%;
+  top: 250px;
+  left: 300px;
+  position: absolute;
+}
+#egg {
+	display: block;
+	width: 50px;
+	height: 70px;
+	background-color: #38761d;
+	border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+	rotate: -150deg;
+	right: 190px;
+	bottom: 345px;
+	position: absolute;
+}
+#egg2 {
+	display: block;
+	width: 50px;
+	height: 70px;
+	background-color: #6aa84f;
+	border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+	rotate: -170deg;
+	right: 100px;
+	bottom: 345px;
+	position: absolute;
+}
+#trapezoid {
+	border-bottom: 100px solid lightpink;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 150px;
+	bottom:250px;
+	right: 170px;
+	position: absolute;
+}
+  
+#square {
+	width: 200px;
+	height: 250px;
+	background-color: lightpink;
+	bottom: 0px;
+	right: 170px;
+	position: absolute;
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+#clip {
+	width: 50px;
+	height: 50px;
+	background: #b6d7a8;
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	top: 203px;
+	left: 690px;
+	position: absolute;
+
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/

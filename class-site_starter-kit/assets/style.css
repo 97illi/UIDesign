@@ -4,7 +4,13 @@
 	box-sizing: border-box;
 }
 
-/* adjusting fonts */
+body {
+	background-color: hotpink;
+	color: red;
+	font-family: arial;
+}
+
+ /*adjusting fonts
 
 body {
 	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
@@ -16,7 +22,7 @@ p, li {
 	line-height: 30px;
 }
 
-/* adjusting spacing */
+/* adjusting spacing
 
 #left-column {
 	padding: 20px;
@@ -35,9 +41,9 @@ img {
 	height:  auto;
 }
 
-/* uncomment the code below to set the grid */
+/* uncomment the code below to set the grid
 
-/*#grid {
+#grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
