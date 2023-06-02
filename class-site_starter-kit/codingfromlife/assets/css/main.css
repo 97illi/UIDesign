@@ -54,9 +54,20 @@ body {
 	height: 70px;
 	background-color: #6aa84f;
 	border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-	rotate: -170deg;
-	right: 100px;
+	rotate: 130deg;
+	right: 300px;
 	bottom: 345px;
+	position: absolute;
+}
+#egg3 {
+	display: block;
+	width: 50px;
+	height: 70px;
+	background-color: #b6d7a8;
+	border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+	rotate: 100deg;
+	right: 330px;
+	bottom: 335px;
 	position: absolute;
 }
 #trapezoid {
