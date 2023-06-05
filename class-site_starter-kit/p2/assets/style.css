@@ -1,9 +1,44 @@
 * {
 	margin:  0px;
-	padding:  0px;
 	position: relative;
 	box-sizing: border-box;
 }
+/* fonts */
+@font-face{
+	font-family: "Alice";
+	src: url("Alice-regular.ttf") format("truetype");
+}
+@font-face{
+	font-family: "Aoboshi";
+	src: url("AoboshiOne-Regular.ttf") format("truetype");
+	size-adjust: 90%;
+}
+@font-face{
+	font-family: "Playfair";
+	src: url("PlayfairDisplaySC-Black.ttf") format("truetype");
+	size-adjust: 90%;
+}
+@font-face{
+	font-family: "Lobster";
+	src: url("Lobster-regular.ttf") format("truetype");
+}
+@font-face{
+	font-family: "Great Vibes";
+	src: url("GreatVibes-regular.ttf") format("truetype");
+}
+@font-face{
+	font-family: "Castoro";
+	src: url("CastoroTitling-Regular.ttf") format("truetype");
+}
+@font-face{
+	font-family: "Novacut";
+	src: url(NovaCut-Regular.ttf) format("truetype");
+}
+@font-face{
+	font-family: "Purple";
+	src: url("PurplePurse-Regular.ttf") format("truetype");
+}
+/* customzie */
 
 body {
 	background-color: cornsilk;
@@ -16,7 +51,7 @@ body {
 }
 
 .container .button {
-	padding: 10px;
+	padding: 20px;
 }
 
 .container .nameBox {
@@ -24,9 +59,14 @@ body {
 	padding: 10px;
 }
 .container .nameBox span{
-	font-size: 10px;
+	font-size: 30px;
 }
-.container .name {
-	padding: 10px;
-	font-size: 20px;
+
+/* span style */
+
+.small {
+	font-size:15px;
+}
+.big {
+	font-size: 35px;
 }
