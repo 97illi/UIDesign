@@ -38,6 +38,10 @@
 	font-family: "Purple";
 	src: url("PurplePurse-Regular.ttf") format("truetype");
 }
+@font-face{
+	font-family: "Italiano";
+	src: url("Italianno-Regular.ttf") format("truetype");
+}
 /* customzie */
 
 body {
