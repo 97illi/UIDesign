@@ -4,7 +4,7 @@ function myFunction() {
   var names2 = ["<span style='font-size: 15px'>of the</span>", "<span style='font-size: 15px'>within</span>", "<span style='font-size: 15px'>and</span>", "<span style='font-size: 15px'>without</span>", "<span style='font-size: 15px'>Next to</span>", "Wives", "Say", "Stairway", "<span style='font-size: 15px'>in-law</span>"];
   var names3 = ["Golden", "Club", "Wife", "Gisaeng", "Castle", "Kimchi", "Inheritance"];
   //fonts
-  var fonts = ["Alice", "Aoboshi", "Playfair", "Lobster", "Great Vibes", "Castoro", "Novacut", "Amita", "Purple", "Italiano"];
+  var fonts = ["Cinzel", "Aoboshi", "Playfair", "Lobster", "Great Vibes", "Castoro", "Novacut", "Amita", "Purple", "Italiano"];
   
   var randomNum1 = Math.floor(Math.random() * names1.length);
   var randomNum2 = Math.floor(Math.random() * names2.length);

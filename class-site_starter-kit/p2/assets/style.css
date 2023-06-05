@@ -4,19 +4,14 @@
 	box-sizing: border-box;
 }
 /* fonts */
-@font-face{
-	font-family: "Alice";
-	src: url("Alice-regular.ttf") format("truetype");
 }
 @font-face{
 	font-family: "Aoboshi";
 	src: url("AoboshiOne-Regular.ttf") format("truetype");
-	size-adjust: 90%;
 }
 @font-face{
 	font-family: "Playfair";
 	src: url("PlayfairDisplaySC-Black.ttf") format("truetype");
-	size-adjust: 90%;
 }
 @font-face{
 	font-family: "Lobster";
@@ -45,6 +40,10 @@
 @font-face{
 	font-family: "Amita";
 	src: url("Amita-Bold.ttf") format("truetype");
+}
+@font-face{
+	font-family: "Cinzel";
+	src: url("CinzelDecorative-Bold.ttf") format("truetype");
 }
 /* customzie */
 
