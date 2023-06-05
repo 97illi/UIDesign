@@ -42,6 +42,10 @@
 	font-family: "Italiano";
 	src: url("Italianno-Regular.ttf") format("truetype");
 }
+@font-face{
+	font-family: "Amita";
+	src: url("Amita-Bold.ttf") format("truetype");
+}
 /* customzie */
 
 body {
@@ -70,7 +74,4 @@ body {
 
 .small {
 	font-size:15px;
-}
-.big {
-	font-size: 35px;
 }
