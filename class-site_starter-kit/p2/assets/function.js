@@ -1,8 +1,8 @@
 function myFunction() {
   // names
-  var names1 = ["Bride", "Heaven", "Temptation", "First", "Everybody", "Sky", "Penthouse", "Life", "Secret", "Mother"];
-  var names2 = ["<span style='font-size: 15px'>of the</span>", "<span style='font-size: 15px'>within</span>", "<span style='font-size: 15px'>and</span>", "<span style='font-size: 15px'>without</span>", "<span style='font-size: 15px'>Next to</span>", "Wives", "Say", "Stairway", "<span style='font-size: 15px'>in-law</span>"];
-  var names3 = ["Golden", "Club", "Wife", "Gisaeng", "Castle", "Kimchi", "Inheritance"];
+  var names1 = ["Bride","The World", "Shining", "Temptation", "First", "Winter", "Everybody", "Sky", "Stairway", "Penthouse", "Life", "Secret", "New Tales"];
+  var names2 = ["<span style='font-size: 15px'>of</span>","<span style='font-size: 15px'>to</span>", "<span style='font-size: 15px'>within</span>", "<span style='font-size: 15px'>a</span> War <span style='font-size: 15px'>in</span>", "<span style='font-size: 15px'>and</span>", "<span style='font-size: 15px'>without</span>", "<span style='font-size: 15px'>Next to</span>", "Wives", "<span style='font-size: 20px'>Say</span>", "Stairway"];
+  var names3 = ["Club", "Wife", "Married", "Gisaeng", "Castle","Sonata", "Kimchi","Heaven", "Inheritance", "Life"];
   //fonts
   var fonts = ["Cinzel", "Aoboshi", "Playfair", "Lobster", "Great Vibes", "Castoro", "Novacut", "Amita", "Purple", "Italiano"];
   

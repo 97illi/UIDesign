@@ -66,32 +66,11 @@ body {
 	justify-content: center;
 	float: center;
 }
-*/
-
-.container .button {
-	padding: 20px;
-}
-
-.container .nameBox {
-	position: relative;
-}
-.container .nameBox span{
-	font-size: 30px;
-}
-
-/* span style */
-
-.small {
-	font-size:15px;
-}
-/* popup */
-
+popup */
 .popbutton {
-	position: relative;
-	bottom: 350px;
-	right: 550px;
-	background-color: transparent;
-	background-repeat: no-repeat;
+	position: fixed;
+	top: 10px;
+	left: 10px;
 }
 .popup {
   display: none;
@@ -111,6 +90,8 @@ body {
   width: 400px;
   height: 300px;
   padding: 20px;
+  overflow-y: scroll;
+  scroll-timeline: squareTimeline vertical;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
@@ -123,4 +104,29 @@ body {
   font-weight: bold;
   color: #666;
   cursor: pointer;
+}
+
+/*random button*/
+
+.container {
+	top: 100px;
+}
+
+.container .button {
+	padding: 20px;
+}
+
+.container .nameBox {
+	position: relative;
+	height: 300px;
+	width: 800px;
+}
+.container .nameBox span{
+	font-size: 30px;
+}
+
+/* span style */
+
+.small {
+	font-size:15px;
 }
