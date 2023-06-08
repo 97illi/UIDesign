@@ -47,24 +47,33 @@
 }
 /* customzie */
 
+
 body {
 	background-color: cornsilk;
 	position: relative;
 	display: flex;
+	flex-direction: wrap;
 	align-items: center;
-	justify-content: center;
+	justify-content: center; 
 	float: center;
 	font-family: Palatino, serif;
 }
+/* .container {
+	position: relative;
+	top: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: center;
+}
+*/
 
 .container .button {
 	padding: 20px;
-	color: pink;
 }
 
 .container .nameBox {
 	position: relative;
-	padding: 10px;
 }
 .container .nameBox span{
 	font-size: 30px;
@@ -75,5 +84,43 @@ body {
 .small {
 	font-size:15px;
 }
+/* popup */
 
+.popbutton {
+	position: relative;
+	bottom: 350px;
+	right: 550px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+.close-button {
+  bottom: 25px;
+  right: 17px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #666;
+  cursor: pointer;
 }

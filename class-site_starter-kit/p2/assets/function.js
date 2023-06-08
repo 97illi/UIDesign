@@ -22,3 +22,10 @@ function myFunction() {
   var randomName = "<span class='"+randomFont1+"'> <span style='font-family: "+randomFont1+"'>"+names1[randomNum1]+ "</span> <span style='font-family: "+randomFont2+"'>"+names2[randomNum2]+ "</span> <span style='font-family: "+randomFont3+"'>"+ names3[randomNum3]+"</span>";
   document.getElementById("name").innerHTML = randomName;
 }
+function openPopup() {
+  document.getElementById("popup").style.display = "block";
+}
+
+function closePopup() {
+  document.getElementById("popup").style.display = "none";
+}
