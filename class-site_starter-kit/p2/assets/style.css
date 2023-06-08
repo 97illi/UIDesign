@@ -58,15 +58,8 @@ body {
 	float: center;
 	font-family: Palatino, serif;
 }
-/* .container {
-	position: relative;
-	top: 50%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	float: center;
-}
-popup */
+
+/*popup */
 .popbutton {
 	position: fixed;
 	top: 10px;
@@ -122,7 +115,7 @@ popup */
 	width: 800px;
 }
 .container .nameBox span{
-	font-size: 30px;
+	font-size: 40px;
 }
 
 /* span style */
